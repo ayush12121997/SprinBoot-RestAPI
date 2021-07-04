@@ -1,7 +1,7 @@
-# SpringBoot-RestAPI
+## SpringBoot-RestAPI
 This is a RestAPI demo using SpringBoot. The API works on SpringBoot and external HTML files are used to test it.
 
-## How to run the project?
+### How to run the project?
 Step 1: Download the code on your machine and unzip it to a desired folder.
 
 Step 2.a: Open EclipseIDE or any other JAVA IDE that suppors Maven and Spring. <br>
