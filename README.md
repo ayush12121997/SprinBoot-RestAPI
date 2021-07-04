@@ -16,7 +16,6 @@ This is a RestAPI demo using SpringBoot. The API works on SpringBoot and externa
 
 ***Step 6***: Now you can test the application by registerting users and then try and log in through the login page.
 
-***Step 7***(Optional):<br>
 ***Step 7.a***: In order to take a look at the database while the server is running, open the following url in your browser - 'http://localhost:8080/h2-console'.<br>
 ***Step 7.b***(Debugging): If you changed the port in Step-4 above, then make sure to change '8080' in the url to the changed port number.<br>
 ***Step 7.c***: In the h2-console window, change the JDBC URL to 'jdbc:h2:~/data'.<br>
