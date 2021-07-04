@@ -37,8 +37,23 @@ window.onload = function(){
 
 		function doSomething(obj)
 		{
-			// console.log(obj.reponseText);
-			window.alert(obj.responseText);
+			var text = obj.responseText;
+			if(text.includes("success"))
+			{
+				document.getElementById("formbox").classList.toggle("successful");
+				setTimeout(function(){
+			        window.alert(obj.responseText);
+			        document.getElementById("formbox").classList.toggle("successful");
+			    }, 700);
+			}
+			else
+			{
+				document.getElementById("formbox").classList.toggle("unsuccessful");
+				setTimeout(function(){
+			        window.alert(obj.responseText);
+			        document.getElementById("formbox").classList.toggle("unsuccessful");
+			    }, 700);
+			}
 		}
 
 		getData(doSomething);

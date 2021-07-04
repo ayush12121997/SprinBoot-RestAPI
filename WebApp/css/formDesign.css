@@ -22,7 +22,28 @@ body{
 	padding: 20px;
 	background: rgba(0,43,255,0.8);
 	border-radius: 4px;
-	box-shadow: 0 8px 16px rgba(0,43,255,0.4);
+	box-shadow: 8px 8px 8px 4px rgba(44, 68, 184, 0.6);
+	transition: 0.5s; 
+}
+
+.successful{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	background: rgba(0,43,255,0.8);
+	border-radius: 4px;
+	box-shadow: 0px 0px 8px 4px rgba(36, 255, 65, 0.8);
+	transition: 0.5s;
+}
+
+.unsuccessful{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	background: rgba(0,43,255,0.8);
+	border-radius: 4px;
+	box-shadow: 0px 0px 8px 4px rgba(255, 36, 36, 0.8);
+	transition: 0.5s; 
 }
 
 .inputform h1{
@@ -62,7 +83,7 @@ body{
 	transition: .3s;
 }
 
-.btn:hover{
+.btn:onclick{
 	background: rgba(181, 249, 255, 0.8);
 }
 
@@ -78,7 +99,7 @@ body{
 	transition: .3s;
 }
 
-.btn2:hover{
+.btn2:onclick{
 	background: rgba(181, 249, 255, 0.8);
 }
 
@@ -108,7 +129,7 @@ a{
 	transition: .3s;
 }
 
-.btn3:hover{
+.btn3:onclick{
 	background: rgba(181, 249, 255, 0.8);
 }
 
@@ -124,6 +145,6 @@ a{
 	transition: .3s;
 }
 
-.btn4:hover{
+.btn4:onclick{
 	background: rgba(181, 249, 255, 0.8);
 }
