@@ -46,15 +46,16 @@ body{
 }
 
 .btn{
-	margin-left: 21%;
+	margin-left: 20%;
 	margin-right: 5%;
 	margin-top: 2%;
 	width: 120px;
 	height: 35px;
+	cursor:pointer;
 	border: none;
 	outline: none;
-	background: rgba(153, 234, 255, 0.9);
-	font-size: 16px;
+	background: rgba(181, 249, 255, 1);
+	font-size: 17px;
 	color: rgb(0, 41, 154);
 	text-transform: uppercase;
 	border-radius: 4px;
@@ -62,41 +63,45 @@ body{
 }
 
 .btn:hover{
-	background: rgba(153, 234, 255, 1);
+	background: rgba(181, 249, 255, 0.8);
 }
 
 .btn2{
 	margin-top: 2%;
-	width: 120px;
+	width: 130px;
 	height: 35px;
+	cursor:pointer;
 	border: none;
 	outline: none;
-	background: rgba(153, 234, 255, 0.9);
+	background: rgba(181, 249, 255, 1);
 	border-radius: 4px;
 	transition: .3s;
 }
 
 .btn2:hover{
-	background: rgba(153, 234, 255, 1);
+	background: rgba(181, 249, 255, 0.8);
 }
 
 a{
 	text-decoration: none;
 	color: rgb(0, 41, 154);
-	font-size: 16px;
+	font-size: 17px;
 	text-transform: uppercase;
 }
 
+/*For login page*/
+
 .btn3{
-	margin-left: 50%;
+	margin-left: 14%;
+	margin-right: 5%;
 	margin-top: 2%;
-	transform: translateX(-50%);
-	width: 120px;
+	width: 100px;
 	height: 35px;
+	cursor:pointer;
 	border: none;
 	outline: none;
-	background: rgba(153, 234, 255, 0.9);
-	font-size: 16px;
+	background: rgba(181, 249, 255, 1);
+	font-size: 17px;
 	color: rgb(0, 41, 154);
 	text-transform: uppercase;
 	border-radius: 4px;
@@ -104,5 +109,21 @@ a{
 }
 
 .btn3:hover{
-	background: rgba(153, 234, 255, 1);
+	background: rgba(181, 249, 255, 0.8);
+}
+
+.btn4{
+	margin-top: 2%;
+	width: 210px;
+	height: 35px;
+	cursor:pointer;
+	border: none;
+	outline: none;
+	background: rgba(181, 249, 255, 1);
+	border-radius: 4px;
+	transition: .3s;
+}
+
+.btn4:hover{
+	background: rgba(181, 249, 255, 0.8);
 }
